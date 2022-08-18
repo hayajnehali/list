@@ -1,0 +1,97 @@
+#error{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.tasker{
+    width: 30%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.error{
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 12px;
+    height: 45px;
+    background-color: #fb6a60;
+}
+
+.tasker-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin: 40px;
+    margin-bottom: 0;
+    height: 45px;
+}
+.tasker-header input{
+    height: 100%;
+    width: 85%;
+    border: none;
+    background-color: #303e52;
+}
+.tasker-header input[type="text" i] {
+    padding: 0px 15px;
+    color: aliceblue;
+}
+.tasker-header button{
+    height: 100%;
+    width: 15%;
+    border: none;
+    background-color: #10bfb0;
+    padding: 0;
+}
+
+.tasker-body{
+    width: 100%;
+    display: flex;
+}
+
+.tasker-body ul{
+    list-style: none;
+    width: 100%;
+    position: relative;
+    
+}
+
+input[type="checkbox" i] {
+    text-decoration: dashed;
+}
+
+.tasker-body ul button{
+    position: absolute;
+    right:19px;
+    background-color: inherit;
+    border: none;
+    color: rgb(232, 11, 11);
+    font-size: large;
+}
+.task{
+    padding: 16px 5px !important;
+    background-color: #ffffff;
+}
+.tasker-body ul li input{
+    margin-right: 5px !important;
+}
+
+.task.completed{
+    -webkit-text-decoration-line: line-through; /* Safari */
+    text-decoration-line: line-through; 
+}
+
+
